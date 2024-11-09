@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DespairServices/colorful-console/color"
+	"github.com/DespairServices/color-console/color"
 )
 
 // Attributes
