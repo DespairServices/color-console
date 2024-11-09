@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DespairServices/asset-store-price-backend/internal/color"
+	"github.com/DespairServices/colorful-console/color"
 )
 
 // Attributes
