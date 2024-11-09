@@ -245,11 +245,13 @@ func ErrorLite(m string, v ...any) {
 }
 
 func Info(m string, v ...any) {
-	FgCyan(m, v...)
+	s := fmt.Sprintf("[INFO] %s", m)
+	FgCyan(s, v...)
 }
 
 func InfoLite(m string, v ...any) {
-	FgLightCyan(m, v...)
+	s := fmt.Sprintf("[INFO] %s", m)
+	FgLightCyan(s, v...)
 }
 
 func Log(m string, v ...any) {
